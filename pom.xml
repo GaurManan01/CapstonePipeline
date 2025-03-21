@@ -8,12 +8,19 @@
   <artifactId>CapstoneProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <repositories>
+<repositories>
     <repository>
-      <id>jenkins</id>
-      <url>https://repo.jenkins-ci.org/releases/</url>
+        <id>jenkins-ci-releases</id>
+        <url>https://repo.jenkins-ci.org/public/</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
     </repository>
-  </repositories>
+</repositories>
+
 
   <dependencies>
     <!-- Cucumber dependencies -->
